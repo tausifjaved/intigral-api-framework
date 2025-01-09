@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="BookingAPITests">
+    <listeners>
+        <listener class-name="org.intigral.assignment.listeners.ExtentReportListener"/>
+    </listeners>
+    <test name="BookingTestSuite">
+        <classes>
+            <class name="tests.BookingTest"/>
+        </classes>
+    </test>
+</suite>
